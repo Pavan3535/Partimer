@@ -34,6 +34,16 @@ job recommendation to students
 <img src="https://github.com/Pavan3535/Partimer/assets/91120039/c5ff237c-3168-43d7-a99e-0783d9f24b1d" width="150" height="300">
 
 
+intelligent match job-student for job posters
+
+<img src="https://github.com/Pavan3535/Partimer/assets/91120039/4d803780-6254-4b5b-9aea-0ddecf34d49e" width="150" height="300">
+<img src="https://github.com/Pavan3535/Partimer/assets/91120039/928a4798-b162-48fc-973a-31aeb1142389" width="150" height="300">
+<img src="https://github.com/Pavan3535/Partimer/assets/91120039/a8df994d-8ce5-47ab-a45d-df006c21bcea" width="150" height="300">
+<img src="https://github.com/Pavan3535/Partimer/assets/91120039/d260a931-88d9-4cda-87f6-4a499f6fda4d" width="150" height="300">
+
+
+
+
 
 
 
