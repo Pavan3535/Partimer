@@ -168,7 +168,7 @@
                             android:layout_below="@+id/percent"
                             android:layout_marginTop="@dimen/dimen_5dp"
                             android:gravity="center"
-                            android:text="Picture\nmatch"
+                            android:text="Category \nmatch"
                             android:textColor="@color/black"
                             android:textSize="@dimen/text_size_14sp" />
                     </LinearLayout>

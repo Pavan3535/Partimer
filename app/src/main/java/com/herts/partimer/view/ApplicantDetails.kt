@@ -177,7 +177,7 @@ class ApplicantDetails : AppCompatActivity(), WeekAdapter.HomeListener {
         val immed_p = findViewById<TextView>(R.id.immed_p)
         val email_p = findViewById<TextView>(R.id.email_p)
         pp_p.setText(
-            dta?.matchingObject?.profilePicture?.percentage.toString().substringBefore(".") + "%"
+            dta?.matchingObject?.category?.percentage.toString().substringBefore(".") + "%"
         )
         ref_p.setText(
             dta?.matchingObject?.reference?.percentage.toString().substringBefore(".") + "%"
