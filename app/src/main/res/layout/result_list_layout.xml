@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_5dp"
+    android:background="@color/text"
+    android:elevation="@dimen/dimen_8dp"
+    app:cardCornerRadius="@dimen/dimen_8dp">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_pic"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+
+            android:src="@drawable/default_user" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/user_profile_pic"
+            android:text="Full Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_16sp" />
+
+        <TextView
+            android:id="@+id/available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_alignStart="@+id/user_name"
+            android:layout_alignLeft="@+id/user_name"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:text="City"
+            android:textSize="@dimen/text_size_14sp" />
+
+        <ImageView
+            android:id="@+id/shortNotice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/available"
+            android:layout_alignLeft="@+id/user_name"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bell1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/available"
+            android:layout_alignStart="@id/available"
+            android:layout_toRightOf="@id/user_profile_pic"
+            android:text="AM \nPM"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/dimen_5dp"
+            android:background="@drawable/circle_border_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5dp"
+            android:text="98%"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/percent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dimen_5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="@dimen/dimen_5dp"
+            android:text="Match"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_14sp" />
+
+        <HorizontalScrollView
+            android:id="@+id/availablity_scroll"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/available"
+            android:layout_alignStart="@+id/user_name"
+            android:layout_alignLeft="@+id/user_name"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@+id/textView3"
+            android:layout_toRightOf="@+id/user_profile_pic"
+            android:scrollbarSize="1dp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

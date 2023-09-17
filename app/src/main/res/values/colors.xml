@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="faceBook">#3b5998</color>
+    <!--    <color name="colorPrimaryDark">#003640</color>-->
+    <!--    <color name="colorPrimary">#006879</color>-->
+    <!--    <color name="accent">#ffb95c</color>-->
+    <color name="colorErrorRed">#FF0808</color>
+    <color name="background_grey">#424242</color>
+    <color name="yellow">#FFD500</color>
+
+    <color name="tertiary">#633B48</color>
+    <color name="dark_gray">#6c6c6c</color>
+    <color name="owner_signup">#FF8A00</color>
+    <color name="integer_number">#9C959529</color>
+    <color name="color_bright_pink">#F71266</color>
+    <color name="black_light">#111111</color>
+    <color name="colorPrimaryDark">#006879</color>
+    <color name="colorPrimary">#50bdbd</color>
+    <color name="accent">#F71266</color>
+    <color name="text">#FFFAFB</color>
+
+    <color name="smallText">#a8a8a8</color>
+</resources>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Partimer</string>
+
+    <!--    Login -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign In       </string>
+    <string name="already_have_an_account_sign_up">Already have an account? Sign up</string>
+
+    <!--    register -->
+    <string name="business_name_hint">Business Name</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="first_last_hint">Last Name</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="add">add\n\n</string>
+    <string name="textSHortNotice">Available on short notice\n(As soon as next shift)</string>
+    <string name="preferred_job_category">Preferred Job Category</string>
+    <string name="preferred_roles">Preferred Roles</string>
+    <string name="retail_amp_customer_service">Retail and Customer Service</string>
+    <string name="fitness">Fitness</string>
+    <string name="event_management">Event Management</string>
+    <string name="pet_care">Pet Care</string>
+    <string name="household_chores">Household Chores</string>
+    <string name="creative_services">Creative Services</string>
+    <string name="gardening">Gardening</string>
+    <string name="healthcare_support">Healthcare Support</string>
+    <string name="language_amp_translation">Language and Translation</string>
+    <string name="hospitality_amp_food_service">Hospitality and Food Service</string>
+    <string name="babysitting">Babysitting</string>
+    <string name="office_support">Office Support</string>
+
+
+    <string-array name="job_category">
+        <item>Select Job Category</item>
+        <item>Retail and Customer Service</item>
+        <item>Office Support</item>
+        <item>Fitness</item>
+        <item>Event Management</item>
+        <item>Pet Care</item>
+        <item>Household Chores</item>
+        <item>Creative Services</item>
+        <item>Gardening</item>
+        <item>Healthcare Support</item>
+        <item>Language and Translation</item>
+        <item>Hospitality and Food Service</item>
+        <item>Babysitting</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Select City</item>
+        <item>Birmingham</item>
+        <item>Bradford</item>
+        <item>Bristol</item>
+        <item>Cambridge</item>
+        <item>Chester</item>
+        <item>Coventry</item>
+        <item>Leeds</item>
+        <item>Leicester</item>
+        <item>Liverpool</item>
+        <item>London</item>
+        <item>Manchester</item>
+        <item>Norwich</item>
+        <item>Nottingham</item>
+        <item>Oxford</item>
+        <item>Plymouth</item>
+        <item>Portsmouth</item>
+        <item>Sheffield</item>
+        <item>Southampton</item>
+        <item>St Albans</item>
+        <item>Westminster</item>
+        <item>York</item>
+    </string-array>
+
+    <!--    verify otp-->
+    <string name="verify_otp">Enter OTP sent to you on your email address</string>
+    <string name="otp_text">OTP will be sent for verification on your email address.</string>
+    <string name="time">00:15</string>
+    <string name="resend"><u>Resend</u></string>
+
+</resources>

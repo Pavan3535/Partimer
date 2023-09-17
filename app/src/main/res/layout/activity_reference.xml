@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.AddReference">
+
+    <TextView
+        android:id="@+id/tv_job_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="@dimen/dimen_8dp"
+        android:text="Reference Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ref_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:hint="Enter Reference Name"
+        android:padding="@dimen/dimen_8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="@dimen/dimen_8dp"
+        android:text="Reference Contact Email"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ref_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:hint="Enter Reference Contact Email"
+        android:padding="@dimen/dimen_8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="@dimen/dimen_8dp"
+        android:text="Reference relationship to the student"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ref_relation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:hint="Enter Reference Relationship"
+        android:padding="@dimen/dimen_8dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_save_ref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/colorPrimary"
+            android:text="SAVE"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

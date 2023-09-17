@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_8dp"
+    android:elevation="@dimen/dimen_8dp"
+    app:cardElevation="@dimen/dimen_8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dimen_8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/job_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/default_user" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/job_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:text="ABC is hiring"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/job_description"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:text="B1 is looking to hire a delivery"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/interested_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_title"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/news_image"
+                android:text="Are you interested ?"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_title"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/news_image"
+                android:text="London"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
+            android:background="@drawable/circle_border_bg"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5dp"
+            android:text="98%"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/percent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="5dp"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:text="Recommended"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_12sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
