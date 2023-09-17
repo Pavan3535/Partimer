@@ -51,7 +51,7 @@ class VerifyStudentDetails : AppCompatActivity() {
         email = findViewById<EditText>(R.id.et_email)
         save.setOnClickListener {
             if (sendCode?.visibility == View.VISIBLE) {
-                if (email?.text.toString().isNullOrEmpty())
+                if (email?.text.toString().isNotEmpty())
                     callApi()
             } else {
                 callVerifyCodeApi()
@@ -60,7 +60,7 @@ class VerifyStudentDetails : AppCompatActivity() {
         }
         val skip = findViewById<LinearLayout>(R.id.change_package)
         skip.setOnClickListener {
-            Navigator.navigateToVerifyStudentId(this)
+            Navigator.navigateToStudentHome(this)
         }
 
         sendCode = findViewById(R.id.sendCode)
@@ -75,7 +75,7 @@ class VerifyStudentDetails : AppCompatActivity() {
         vm.verifyCodeLiveData?.observe(this, Observer {
             if (it != null) {
                 showToast(it.responseDescription.toString())
-                Navigator.navigateToVerifyStudentId(this)
+                Navigator.navigateToStudentHome(this)
             } else {
                 showToast("Incorrect code")
             }
