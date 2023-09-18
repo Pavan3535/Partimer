@@ -16,6 +16,7 @@ import com.herts.partimer.view.Skills
 import com.herts.partimer.view.StudentHome
 import com.herts.partimer.view.StudentMoreDetails
 import com.herts.partimer.view.StudentProfile
+import com.herts.partimer.view.TermsAndPrivacy
 import com.herts.partimer.view.VerifyStudentDetails
 import com.herts.partimer.view.VerifyStudentId
 
@@ -71,6 +72,10 @@ object Navigator {
 
     fun navigateToJobDetails(context: Context, postModel: JobProfileList) {
         context.startActivity(JobDetails.getCallingIntent(context, postModel))
+    }
+
+    fun navigateToPrivacy(context: Context, id:Int ) {
+        context.startActivity(TermsAndPrivacy.getCallingIntent(context, id))
     }
 
 }

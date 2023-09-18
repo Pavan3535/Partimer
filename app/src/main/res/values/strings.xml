@@ -30,6 +30,8 @@
     <string name="babysitting">Babysitting</string>
     <string name="office_support">Office Support</string>
 
+    <string name="i_agree_to_terms_of_service_and_privacy_policy">I agree to Terms of Service and Privacy policy.</string>
+
 
     <string-array name="job_category">
         <item>Select Job Category</item>
@@ -77,5 +79,109 @@
     <string name="otp_text">OTP will be sent for verification on your email address.</string>
     <string name="time">00:15</string>
     <string name="resend"><u>Resend</u></string>
+
+    <string name="terms">
+Partimer Terms and Conditions
+
+
+1. Acceptance of Terms
+
+By using the Partimer mobile application and its services, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
+
+2. User Registration
+
+2.1 Eligibility: You must be of legal age in your jurisdiction to use our services. If you are under the age of 18, you may use our services only with the involvement of a parent or guardian.
+
+2.2 Accurate Information: You agree to provide accurate, current, and complete information during the registration process and to keep it up to date.
+
+2.3 Account Security: You are responsible for maintaining the security of your account credentials. If you suspect unauthorized access to your account, you must notify us immediately.
+
+3. User Content
+
+3.1 User Content: Users may post content on Partimer, including but not limited to profiles, job listings, and messages. You are solely responsible for the content you post.
+
+3.2 Rights to Content: By posting content on Partimer, you grant us a non-exclusive, worldwide, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, modify, adapt, publicly display, and perform that content.
+
+3.3 Prohibited Content: You agree not to post content that is offensive, illegal, or violates the rights of others. We reserve the right to remove or restrict access to any content that violates these terms.
+
+4. Privacy Policy
+
+Your use of Partimer is governed by our Privacy Policy, which you can review at [link to privacy policy].
+
+5. Termination
+
+We reserve the right to terminate or suspend your account and access to our services at our discretion, without prior notice, for violations of these terms or for any other reason.
+
+6. Intellectual Property
+
+Partimer and its original content, features, and functionality are owned by [Your Company Name] and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
+
+7. Disclaimer of Warranties
+
+Our services are provided "as is" and "as available" without warranties of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+8. Limitation of Liability
+
+In no event shall [Your Company Name] be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.
+
+9. Governing Law
+
+These Terms and Conditions shall be governed and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.
+
+10. Contact Information
+
+If you have any questions about these Terms and Conditions, please contact us at [contact@email.com].</string>
+
+    <string name="privacy">
+
+Privacy Policy for Partimer Project
+
+
+
+1. Introduction
+
+Welcome to Partimer, a mobile application designed to provide part-time job recommendations and intelligent job-student matches. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our services.
+
+2. Information We Collect
+
+2.1 User Registration Data: When you register on Partimer, we collect personal information, including your name, email address, and password. Passwords are securely encrypted and stored on our servers.
+
+2.2 Profile Information: You have the option to provide additional profile information, such as skills, preferences, and job history, to enhance your user experience and receive more accurate job recommendations.
+
+2.3 Usage Data: We may collect information about how you interact with our app, including job searches, viewed job listings, and interactions with other users. This data helps us improve our services and provide personalized recommendations.
+
+3. How We Use Your Data
+
+3.1 Job Recommendations: Your data is used to provide you with personalized job recommendations based on your profile and preferences.
+
+3.2 Intelligent Matching: For job posters, we use your data to intelligently match you with suitable candidates based on your job requirements and preferences.
+
+3.3 Communication: Partimer facilitates communication between job seekers and job posters. Your data may be used to enable this communication.
+
+3.4 Security: We use your data to enhance the security of your account, including implementing measures like JWT authentication and data encryption.
+
+4. Data Security
+
+4.1 Encryption: We employ strong encryption techniques to protect your data during transmission and storage.
+
+4.2 Access Controls: Access to user data is strictly controlled through role-based access controls to prevent unauthorized access.
+
+5. Third-Party Services
+
+Partimer may use third-party services, such as analytics tools and advertising providers. These services may collect information about your interactions with our app for analytics and advertising purposes. Please review the privacy policies of these third parties for more information on how they handle your data.
+
+6. Your Choices
+
+6.1 Profile Management: You can review and update your profile information at any time. This ensures that our recommendations remain accurate.
+
+6.2 Communication Preferences: You can manage your communication preferences within the app settings.
+
+7. Contact Us
+
+If you have questions or concerns about this Privacy Policy or your data, please contact us at [contact@email.com].
+
+8. Changes to this Privacy Policy
+
+We may update this Privacy Policy to reflect changes in our data practices. Please review this policy periodically for any updates.</string>
 
 </resources>

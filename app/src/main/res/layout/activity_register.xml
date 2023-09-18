@@ -69,8 +69,8 @@
             android:id="@+id/buissness_lay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
 
             <EditText
                 android:id="@+id/buissness_name"
@@ -178,23 +178,55 @@
                 android:textColorHint="@color/white" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <TextView
-            android:id="@+id/ageement"
-            style="@android:style/TextAppearance.Small"
+        <RelativeLayout
+            android:id="@+id/signup_rl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/password_lay"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:textAlignment="center"
-            android:textColor="@color/white" />
+            android:layout_below="@id/password_lay"
+            android:gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RadioGroup
+                android:id="@+id/radioGroupTermsAndCondns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioTerms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_11_25sp" />
+
+
+            </RadioGroup>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_view_term_and_services"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="@dimen/dimen_25dp"
+                android:layout_toEndOf="@id/radioGroupTermsAndCondns"
+                android:gravity="start|center"
+                android:text="@string/i_agree_to_terms_of_service_and_privacy_policy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12sp"
+                app:layout_constraintLeft_toRightOf="@id/radioGroupTermsAndCondns" />
+
+        </RelativeLayout>
 
         <Button
             android:id="@+id/email_sign_in_button"
             style="?android:textAppearanceSmall"
             android:layout_width="155dp"
             android:layout_height="55dp"
-            android:layout_below="@+id/ageement"
+            android:layout_below="@+id/signup_rl"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
             android:background="@drawable/intro_btn"
